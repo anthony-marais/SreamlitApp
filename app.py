@@ -122,11 +122,11 @@ def main():
             C4,C5,C6 = st.columns(3)
             
             with C4:
-                years = st.slider("Number of years",value=1,min_value=0, max_value=1, step=1)
+                years = st.slider("Number of years",value=1,min_value=0, max_value=5, step=1)
             with C5:
-                yearss = st.slider("Nusmber of years",value=1,min_value=0, max_value=1, step=1)            
+                yearss = st.slider("Nusmber of years",value=1,min_value=0, max_value=5, step=1)            
             with C6:
-                yesars = st.slider("Numbesr of years",value=1,min_value=0, max_value=1, step=1)
+                yesars = st.slider("Numbesr of years",value=1,min_value=0, max_value=5, step=1)
 
 
 
