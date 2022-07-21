@@ -10,7 +10,7 @@ import yaml  # pip install pyaml
 
 st.set_page_config(
     page_title="Streamlit App",
-    page_icon="🔥",
+    page_icon="✈️",
     layout="centered",
     menu_items={
         "Get Help": "https://www.extremelycoolapp.com/help",
