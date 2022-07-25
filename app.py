@@ -55,7 +55,7 @@ def main():
     if authentication_status:
        
        st.sidebar.success("Welcome back, {}".format(st.session_state.name))
-       menu = ["Home","Classification","About", "Contact"]
+       menu = ["Home","Classification"]
        choice = st.sidebar.selectbox("Menu",menu)
        authenticator.logout("Logout", "sidebar")
        
@@ -67,10 +67,6 @@ def main():
        
        if choice == "Classification":
             st.title("Classification App")
-            forms()
-
-       if choice == "About":
-
             forms()
 
 
